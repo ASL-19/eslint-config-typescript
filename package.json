@@ -1,6 +1,6 @@
 {
   "name": "@asl-19/eslint-config-typescript",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Shared ESLint config for ASL19 TypeScript projects",
   "author": {
     "name": "Grant Heaslip",
@@ -12,7 +12,7 @@
   "files": [],
   "main": "index.js",
   "engines": {
-    "node": "12.x"
+    "node": ">= 12"
   },
   "scripts": {
     "build": "tsc",
@@ -21,8 +21,7 @@
   },
   "dependencies": {
     "eslint-config-airbnb-typescript": "^7.2.1",
-    "eslint-config-prettier": "^6.11.0",
-    "typescript": "^3.9.4"
+    "eslint-config-prettier": "^6.11.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.42",
@@ -35,7 +34,8 @@
     "eslint-plugin-simple-import-sort": "^5.0.3",
     "eslint-plugin-sort-destructure-keys": "^1.3.4",
     "eslint-plugin-unicorn": "^18.0.1",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.27.0",

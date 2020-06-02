@@ -1,6 +1,6 @@
 {
   "name": "@asl-19/eslint-config-typescript",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Shared ESLint config for ASL19 TypeScript projects",
   "author": {
     "name": "Grant Heaslip",

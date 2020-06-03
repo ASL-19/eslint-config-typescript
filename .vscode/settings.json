@@ -11,5 +11,12 @@
     "Heaslip",
     "destructure",
     "peerdeps"
-  ]
+  ],
+  "search.exclude": {
+    ".yarn/releases/**/*": true,
+    ".yarnrc": true,
+    "CHANGELOG.markdown": true,
+    "LICENSE": true,
+    "yarn.lock": true
+  }
 }
